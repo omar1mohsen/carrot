@@ -60,8 +60,7 @@ CarrotFrontend.load = {
   },
   tre_select_checkbox() {
     $(document).on("click", ".tre-fliter-checkbox", function () {
-      let box = $(this),
-        boxs = $(document).find(".tre-fliter-checkbox");
+      let boxs = $(document).find(".tre-fliter-checkbox");
       if (boxs.length) {
         boxs.each(function () {
           $(this).prop("checked", false);
