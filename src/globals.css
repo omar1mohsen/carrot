@@ -472,7 +472,16 @@ select {
     max-width: 1140px;
   }
 }
-
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1350px;
+  }
+}
+@media (max-width: 1366px) {
+  .container {
+    max-width: 1200px;
+  }
+}
 textarea {
   height: calc(11em + 0.75rem + 2px);
 }
